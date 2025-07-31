@@ -63,6 +63,9 @@ app.use('/api', authRoutes);
 app.use("/api/solutions", solutionsRoute);
 app.use("/api/rca", rcaRoute);
 app.use('/api/profile',profileRouter);
+app.get('/', (req, res) => {
+  res.send('Backend is running successfully 🚀');
+});
 
 const PORT = 4000;
 app.listen(PORT, () => {
