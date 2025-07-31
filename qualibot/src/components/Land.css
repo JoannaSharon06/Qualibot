@@ -1,0 +1,52 @@
+/* Ensure body and html take full space and have no margin */
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.land-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/qualibotbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Options container */
+.landing-options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Buttons */
+.box {
+  width: 200px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+  color: black;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  backdrop-filter: blur(4px); /* Optional: glass effect */
+}
+
+.box:hover {
+  background-color: rgb(47, 45, 45);
+  color:white;
+  transform: scale(1.05);
+}
+

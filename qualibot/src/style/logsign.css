@@ -1,0 +1,70 @@
+/* Make sure these apply globally */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background image container */
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background: url('/qualibotbg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassy form */
+.login-form {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  color: #fff;
+  width: 300px;
+  text-align: center;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Button */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(255,255,255,0.8);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background-color: rgba(255,255,255,1);
+}
+
+/* Sign up link */
+.login-form p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-form a {
+  color: #fff;
+  text-decoration: underline;
+}

@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('/qualibotbg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anomaly-container {
+  margin-top: 80px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/qualibotbg.jpg');
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+ z-index: 1;
+  position: relative;
+}
+
+.anomaly-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/qualibotbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.anomaly-heading {
+  margin-top: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.anomaly-card {
+  width: 80%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.anomaly-card:hover {
+  transform: translateY(-5px);
+}
+
+.anomaly-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+.anomaly-details p strong {
+  color: #ffd700;
+}
+
+.anomaly-action {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.rca-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff33;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rca-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #ffd700;
+  color: #ffd700;
+}

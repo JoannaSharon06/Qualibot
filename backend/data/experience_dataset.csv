@@ -1,0 +1,66 @@
+person name,problem,solution,when
+Karan Patel,Chatter marks observed in 4 parts (0.5%) from CNC1 during Shift A.,"Enhanced maintenance schedules and replaced faulty components.",2025-05-23
+Rajiv Menon,Chatter marks observed in 3 parts (0.4%) from CNC1 during Shift C.,"Collaborated with QA team to revise inspection protocols.",2024-01-07
+Karan Patel,Cracks observed in 2 parts (0.3%) from WeldUnitA during Shift A.,"Collaborated with QA team to revise inspection protocols.",2024-03-29
+Nisha Rao,Cracks observed in 1 parts (0.1%) from WeldUnitA during Shift B.,"Collaborated with QA team to revise inspection protocols.",2024-05-01
+Anita Desai,Cracks observed in 1 parts (0.1%) from WeldUnitA during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2024-08-22
+Rajiv Menon,Cracks observed in 1 parts (0.1%) from WeldUnitB during Shift A.,"Reviewed process flow and added additional quality checkpoints.",2023-12-21
+Rajiv Menon,Cracks observed in 1 parts (0.1%) from WeldUnitB during Shift C.,"Reviewed process flow and added additional quality checkpoints.",2024-12-24
+Anita Desai,Excessive burrs observed in 2 parts (0.3%) from CNC1 during Shift A.,"Collaborated with QA team to revise inspection protocols.",2024-06-19
+Rajiv Menon,Excessive burrs observed in 4 parts (0.5%) from CNC1 during Shift B.,"Reviewed process flow and added additional quality checkpoints",2025-03-02
+Rajiv Menon,Tool wear leading to quality issues,"Integrated a tool condition monitoring system using vibration and sound analysis, created a wear threshold alert system, and scheduled timely replacements based on actual wear data instead of estimated usage.",2022-12-14
+Anita Desai,Excessive burrs observed in 1 parts (0.1%) from CNC1 during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2025-06-03
+Anita Desai,Excessive burrs observed in 2 parts (0.3%) from CNC2 during Shift A.,"Collaborated with QA team to revise inspection protocols.",2024-08-31
+Karan Patel,Excessive burrs observed in 1 parts (0.1%) from CNC2 during Shift B.,"Upgraded equipment and trained operators on new procedures.",2025-04-29
+Karan Patel,Excessive burrs observed in 1 parts (0.1%) from CNC2 during Shift C.,"Reviewed process flow and added additional quality checkpoints.",2024-08-15
+Karan Patel,Incomplete fusion observed in 2 parts (0.3%) from WeldUnitA during Shift B.,"Enhanced maintenance schedules and replaced faulty components.",2024-11-17
+Nisha Rao,Incomplete fusion observed in 1 parts (0.1%) from WeldUnitB during Shift A.,"Enhanced maintenance schedules and replaced faulty components.",2025-01-30
+Karan Patel,Incomplete fusion observed in 1 parts (0.1%) from WeldUnitB during Shift B.,"Upgraded equipment and trained operators on new procedures.",2024-02-19
+Ravi Kumar,Incomplete fusion observed in 1 parts (0.1%) from WeldUnitB during Shift C.,"Collaborated with QA team to revise inspection protocols.",2024-07-10
+Anita Desai,Label misprint observed in 1 parts (0.1%) from PackLine1 during Shift A.,"Upgraded equipment and trained operators on new procedures.",2025-02-01
+Rajiv Menon,Label misprint observed in 1 parts (0.1%) from PackLine1 during Shift B.,"Upgraded equipment and trained operators on new procedures.",2025-03-30
+Karan Patel,Label misprint observed in 1 parts (0.1%) from PackLine2 during Shift A.,"Enhanced maintenance schedules and replaced faulty components.",2023-11-15
+Ravi Kumar,Label misprint observed in 1 parts (0.1%) from PackLine2 during Shift C.,"Collaborated with QA team to revise inspection protocols.",2024-01-09
+Rajiv Menon,Loose joints observed in 1 parts (0.1%) from AssemLineA during Shift B.,"Upgraded equipment and trained operators on new procedures.",2025-01-21
+Rajiv Menon,Loose joints observed in 2 parts (0.3%) from AssemLineA during Shift C.,"Reviewed process flow and added additional quality checkpoints.",2024-04-19
+Rajiv Menon,Loose joints observed in 2 parts (0.3%) from AssemLineB during Shift A.,"Enhanced maintenance schedules and replaced faulty components.",2024-02-08
+Ravi Kumar,Loose joints observed in 1 parts (0.1%) from AssemLineB during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2023-08-17
+Nisha Rao,Misaligned holes observed in 1 parts (0.1%) from DrillX1 during Shift B.,"Enhanced maintenance schedules and replaced faulty components.",2025-04-03
+Karan Patel,Misaligned holes observed in 3 parts (0.4%) from DrillX1 during Shift C.,"Upgraded equipment and trained operators on new procedures.",2024-12-06
+Anita Desai,Misaligned holes observed in 1 parts (0.1%) from DrillX2 during Shift A.,"Collaborated with QA team to revise inspection protocols.",2025-01-12
+Karan Patel,Misaligned holes observed in 1 parts (0.1%) from DrillX2 during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2024-10-19
+Karan Patel,Misfits observed in 1 parts (0.1%) from AssemLineA during Shift B.,"Collaborated with QA team to revise inspection protocols.",2024-08-14
+Rajiv Menon,Misfits observed in 1 parts (0.1%) from AssemLineA during Shift C.,"Collaborated with QA team to revise inspection protocols.",2024-09-18
+Karan Patel,Misfits observed in 1 parts (0.1%) from AssemLineB during Shift B.,"Enhanced maintenance schedules and replaced faulty components.",2024-08-31
+Ravi Kumar,Misfits observed in 4 parts (0.5%) from AssemLineB during Shift C.,"Reviewed process flow and added additional quality checkpoints.",2023-11-30
+Ravi Kumar,Paint chipping observed in 3 parts (0.4%) from CoatBooth1 during Shift B.,"Collaborated with QA team to revise inspection protocols.",2025-01-31
+Ravi Kumar,Paint chipping observed in 1 parts (0.1%) from CoatBooth1 during Shift C.,"Conducted root cause analysis and implemented preventive actions.",2024-12-15
+Karan Patel,Paint chipping observed in 1 parts (0.1%) from CoatBooth2 during Shift A.,"Enhanced maintenance schedules and replaced faulty components.",2024-08-27
+Rajiv Menon,Paint chipping observed in 2 parts (0.3%) from CoatBooth2 during Shift C.,"Conducted root cause analysis and implemented preventive actions.",2024-11-29
+Nisha Rao,Porosity observed in 1 parts (0.1%) from CastLine1 during Shift A.,"Collaborated with QA team to revise inspection protocols.",2024-03-22
+Ravi Kumar,Porosity observed in 1 parts (0.1%) from CastLine1 during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2024-09-20
+Rajiv Menon,Porosity observed in 3 parts (0.4%) from CastLine2 during Shift C.,"Collaborated with QA team to revise inspection protocols.",2023-10-27
+Karan Patel,Seal failure observed in 2 parts (0.3%) from PackLine1 during Shift A.,"Reviewed process flow and added additional quality checkpoints.",2025-03-16
+Nisha Rao,Seal failure observed in 4 parts (0.5%) from PackLine1 during Shift B.,"Upgraded equipment and trained operators on new procedures.",2023-07-29
+Nisha Rao,Seal failure observed in 1 parts (0.1%) from PackLine2 during Shift A.,"Reviewed process flow and added additional quality checkpoints.",2024-01-21
+Ravi Kumar,Seal failure observed in 4 parts (0.5%) from PackLine2 during Shift B.,"Collaborated with QA team to revise inspection protocols.",2023-11-01
+Ravi Kumar,Seal failure observed in 2 parts (0.3%) from PackLine2 during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2025-06-06
+Ravi Kumar,Shrinkage observed in 1 parts (0.1%) from CastLine2 during Shift A.,"Upgraded equipment and trained operators on new procedures.",2023-11-17
+Anita Desai,Surface blisters observed in 1 parts (0.1%) from CastLine1 during Shift B.,"Reviewed process flow and added additional quality checkpoints.",2024-01-01
+Ravi Kumar,Tool wear observed in 1 parts (0.1%) from DrillX1 during Shift A.,"Reviewed process flow and added additional quality checkpoints.",2024-09-27
+Karan Patel,Tool wear observed in 1 parts (0.1%) from DrillX1 during Shift B.,"Conducted root cause analysis and implemented preventive actions.",2023-12-13
+Karan Patel,Tool wear observed in 1 parts (0.1%) from DrillX1 during Shift C.,"Upgraded equipment and trained operators on new procedures.",2025-05-05
+Anita Desai,Tool wear observed in 1 parts (0.1%) from DrillX2 during Shift B.,"Upgraded equipment and trained operators on new procedures.",2024-07-09
+Anita Desai,Uneven coating observed in 1 parts (0.1%) from CoatBooth1 during Shift A.,"Enhanced maintenance schedules and replaced faulty components.",2023-09-17
+Nisha Rao,Uneven coating observed in 3 parts (0.4%) from CoatBooth1 during Shift B.,"Reviewed process flow and added additional quality checkpoints.",2024-02-21
+Karan Patel,Uneven coating observed in 2 parts (0.3%) from CoatBooth1 during Shift C.,"Upgraded equipment and trained operators on new procedures.",2023-09-02
+Ravi Kumar,Uneven coating observed in 4 parts (0.5%) from CoatBooth2 during Shift B.,"Enhanced maintenance schedules and replaced faulty components.",2024-08-21
+Rajiv Menon,Uneven coating observed in 1 parts (0.1%) from CoatBooth2 during Shift C.,"Reviewed process flow and added additional quality checkpoints.",2025-06-13
+Rajiv Menon,Weld joint failure observed in 2 parts (0.3%) from WeldUnitB during Shift A.,"Upgraded equipment and trained operators on new procedures.",2024-06-19
+Anita Desai,Weld joint failure observed in 1 parts (0.1%) from WeldUnitB during Shift B.,"Conducted root cause analysis and implemented preventive actions.",2024-09-09
+Ravi Kumar,Weld joint failure observed in 2 parts (0.3%) from WeldUnitB during Shift C.,"Enhanced maintenance schedules and replaced faulty components.",2023-10-09
+
+hjbnkl,"Chatter marks observed in 4 parts (0.5%) from CNC1 during Shift A.","vjbmcse",2025-07-21
+ganga,"Chatter marks observed in 4 parts (0.5%) from CNC1 during Shift A.","i dont know the sol :)",2025-07-21
+dharanya,"Chatter marks observed in 4 parts (0.5%) from CNC1 during Shift A.","dhbfljnl",2025-07-29
+dhar,"Chatter marks observed in 4 parts (0.5%) from CNC1 during Shift A.","wefwre",2025-07-29

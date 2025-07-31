@@ -1,0 +1,89 @@
+.profile-container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffffff33;
+  background-color: #ffffff11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.profile-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profile-header p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-section h3 {
+  font-size: 20px;
+  border-left: 4px solid #38bdf8;
+  padding-left: 12px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.profile-card p {
+  margin: 6px 0;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+.profile-card strong {
+  color: #ffffff;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  color: #ffffffcc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
