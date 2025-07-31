@@ -8,7 +8,7 @@ const Profile = () => {
     const fetchProfile = async () => {
       try {
         const email = localStorage.getItem('userEmail'); // ✅ Get email from localStorage
-        const res = await axios.get(`http://localhost:4000/api/profiles/me/${email}`);
+        const res = await axios.get(`https://qualibot.onrender.com/api/profiles/me/${email}`);
         setProfile(res.data);
       } catch (error) {
         console.error('Error fetching profile:', error);

@@ -24,7 +24,7 @@ const Login = () => {
     }
 
     // 2. Check if profile exists
-    const profileRes = await fetch(`http://localhost:4000/api/profiles/check?email=${formData.email}`);
+    const profileRes = await fetch(`https://qualibot.onrender.com/api/profiles/check?email=${formData.email}`);
     if (!profileRes.ok) throw new Error('Profile check failed');
     const profileCheck = await profileRes.json();
 
@@ -34,7 +34,7 @@ const Login = () => {
     }
 
     // 3. Attempt Login
-    const loginRes = await fetch('http://localhost:4000/api/login', {
+    const loginRes = await fetch('https://qualibot.onrender.com/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

@@ -20,7 +20,7 @@ const Solution = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:4000/api/solutions/add", {
+      await axios.post("https://qualibot.onrender.com/api/solutions/add", {
         personName,
         problem,
         solution,

@@ -13,13 +13,13 @@ const SolutionPage = () => {
   });
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/solutions')
+    fetch('https://qualibot.onrender.com/api/solutions')
       .then(res => res.json())
       .then(data => setSolutions(data));
   }, []);
 
   const handleDelete = async (id) => {
-    await fetch(`http://localhost:4000/api/solutions/${id}`, { method: 'DELETE' });
+    await fetch(`https://qualibot.onrender.com/api/solutions/${id}`, { method: 'DELETE' });
     setSolutions(solutions.filter(sol => sol._id !== id));
   };
 
@@ -39,7 +39,7 @@ const SolutionPage = () => {
   };
 
   const handleUpdate = async () => {
-    const res = await fetch(`http://localhost:4000/api/solutions/${editingSolution._id}`, {
+    const res = await fetch(`https://qualibot.onrender.com/api/solutions/${editingSolution._id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)

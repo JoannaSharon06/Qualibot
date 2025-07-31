@@ -7,7 +7,7 @@ const Anomalies = () => {
   const [anomalies, setAnomalies] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5001/api/anomalies')
+    fetch("https://qualibot-python.onrender.com/api/anomalies")
       .then(res => res.json())
       .then(data => setAnomalies(data))
       .catch(err => console.error(err));

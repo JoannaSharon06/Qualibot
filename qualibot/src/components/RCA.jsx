@@ -90,7 +90,7 @@ const RCAForm = () => {
     e.preventDefault();
 
     try {
-      const rcaRes = await axios.post("http://localhost:4000/api/rca", {
+      const rcaRes = await axios.post("https://qualibot.onrender.com/api/rca", {
         description: defectDesc,
       });
       setRcaResult(rcaRes.data.rca);

@@ -20,14 +20,14 @@ const ProfilePage = () => {
   const [form, setForm] = useState(emptyProfile);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/profiles')
+    fetch('https://qualibot.onrender.com/api/profiles')
       .then(res => res.json())
       .then(data => setProfiles(data));
   }, []);
 
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:4000/api/profiles/${id}`, { method: 'DELETE' });
+      const res = await fetch(`https://qualibot.onrender.com/api/profiles/${id}`, { method: 'DELETE' });
       if (!res.ok) {
         const err = await res.json();
         alert("Delete failed: " + err.error);
@@ -67,7 +67,7 @@ const ProfilePage = () => {
       return;
     }
     try {
-      const res = await fetch('http://localhost:4000/api/profiles', {
+      const res = await fetch('https://qualibot.onrender.com/api/profiles', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(profileData)

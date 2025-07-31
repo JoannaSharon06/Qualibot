@@ -4,7 +4,7 @@ import axios from 'axios';
 
 router.get('/anomalies', async (req, res) => {
   try {
-    const response = await axios.get('http://localhost:5001/api/anomalies');
+    const response = await axios.get('https://qualibot-python.onrender.com/api/anomalies');
     res.json(response.data);
   } catch (err) {
     console.error('Error fetching anomalies:', err.message);
