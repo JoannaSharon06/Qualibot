@@ -148,7 +148,6 @@ const RCAForm = () => {
                 <p><strong>Person:</strong> {exp.person}</p>
                 <p><strong>Problem:</strong> {exp.problem}</p>
                 <p><strong>Solution:</strong> {exp.solution}</p>
-                <p><strong>Date:</strong> {exp.when}</p>
               </div>
             ))}
           </div>
