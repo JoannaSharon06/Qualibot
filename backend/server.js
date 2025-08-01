@@ -20,8 +20,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
+const allowedOrigins = [
+  'https://qualibot.vercel.app',
+  'https://qualibot-2zh4.vercel.app' // preview URL (optional)
+];
+
 app.use(cors({
-  origin: ['https://qualibot-2zh4.vercel.app'],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('CORS Not Allowed'));
+    }
+  },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
