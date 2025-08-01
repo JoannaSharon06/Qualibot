@@ -32,7 +32,7 @@ const styles = {
     textAlign: "center",
   },
   textarea: {
-    width: "100%",
+    width: "90%",
     padding: "15px",
     borderRadius: "10px",
     border: "1px solid #ddd",
