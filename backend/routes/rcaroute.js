@@ -77,7 +77,7 @@ Perform the following:
     console.log("Calling Groq/OpenAI with prompt:", prompt);
 
     const response = await openai.chat.completions.create({
-      model: "llama3-8b-8192",
+      model: "llama-3.1-8b-instant",
       messages: [{ role: "user", content: prompt }],
     });
 
@@ -95,3 +95,4 @@ Perform the following:
 });
 
 export default router;
+
